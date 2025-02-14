@@ -1,0 +1,52 @@
+
+.petal-2:nth-of-type(2), .petal-2:nth-of-type(3) {
+	top: 1rem;
+	width: 4.5rem;
+	height: 4.5rem;
+	background-color: rgba(220, 20, 60, 1);
+}
+
+.petal-2:nth-of-type(4), .petal-2:nth-of-type(5) {
+	top: 1.5rem;
+	width: 4.5rem;
+	height: 4.5rem;
+	background-color: rgba(178, 34, 34, 1);
+}
+
+.petal-2:nth-of-type(1) {
+	animation: petal1 1s linear;
+}
+
+.petal-2:nth-of-type(2) {
+	animation: petal2 1s linear;
+}
+
+.petal-2:nth-of-type(3) {
+	animation: petal3 1s linear;
+}
+
+.petal-2:nth-of-type(4) {
+	animation: petal4 1s linear;
+}
+
+.petal-2:nth-of-type(5) {
+	animation: petal5 1s linear;
+}
+
+.bud-2 {
+	position: absolute;
+	background-color: green;
+	--mask:
+		radial-gradient(4.46px at 50% 6.3px,#000 99%,#0000 101%) calc(50% - 6px) 0/12px 100%,
+		radial-gradient(4.46px at 50% -3.3px,#0000 99%,#000 101%) 50% 3px/12px 100% repeat-x;
+	-webkit-mask: var(--mask);
+	mask: var(--mask);
+}
+
+.bud-2:nth-of-type(6) {
+	animation: bud1 1s linear;
+}
+
+.bud-2:nth-of-type(7) {
+	animation: bud2 1s linear;
+}
